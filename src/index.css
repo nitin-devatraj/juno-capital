@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 20px;
+  color: #444;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+input,
+select,
+button {
+  margin: 0 10px;
+  padding: 12px;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.inputs {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs > * + * {
+  margin-top: 20px;
+}
+
+.balance {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  min-width: 140px;
+  text-align: center;
+  border: 1px solid #45a049;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.balance:hover {
+  background-color: #45a049;
+}
