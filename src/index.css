@@ -8,6 +8,13 @@ body {
 
 h1 {
   font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+h1 img {
+  height: 50px;
+  margin-right: 20px;
 }
 
 input,
@@ -33,6 +40,10 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+button:disabled {
+  cursor: not-allowed;
 }
 
 .inputs {

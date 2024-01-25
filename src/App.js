@@ -8,7 +8,9 @@ function App() {
   const fullName = useSelector((state) => state.customer.fullName);
   return (
     <div>
-      <h1>Juno Capital</h1>
+      <h1>
+        <img src="/exchange.png" alt="logo" /> Juno Capital
+      </h1>
 
       {fullName === "" ? (
         <CreateCustomer />
